@@ -1,0 +1,28 @@
+.NavShell {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IconShell {
+    display: flex;
+    justify-content: space-between;
+   margin-left: 5%;
+}
+
+.ImgShell {
+    margin-right: 40%;
+}
+
+.LinkShell {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18%;
+}
+
+.SectionShell {
+    margin-right: 40%;
+}
+
