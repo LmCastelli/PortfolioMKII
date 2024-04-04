@@ -1,9 +1,7 @@
 import "./styling/NavBar.css"
 
-
 function NavBar() {
     
-
     return (
         <div className="NavShell">
             <div className="IconShell">
@@ -28,10 +26,8 @@ function NavBar() {
                     <h3>Contact</h3>
                 </div>
             </div>
-            
         </div>
     )
 
 }
-
 export default NavBar;
