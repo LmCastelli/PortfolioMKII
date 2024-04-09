@@ -1,5 +1,6 @@
 import "./styling/App.css"
 import NavBar from "./NavBar";
+import Project from "./Project";
 import me from "./Me.jpeg"
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
                 <div className="MeShell">
                     <img className="Me" src={me} alt="A picture of me"/>
                 </div>
+            </div>
+            <div className="ProjectShell">
+                <Project title="title" img={me} url="testURL" blurb="yadayada" />
             </div>
         </div>
     )
