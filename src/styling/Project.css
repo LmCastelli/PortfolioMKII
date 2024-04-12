@@ -1,0 +1,45 @@
+.ProjectDiv {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 1%;
+    margin-top: 5%;
+    border: solid 2px black;
+}
+
+.ProjectImg {
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.Screenshot {
+    height: auto;
+    width: 70%;
+}
+
+.InfoShell {
+    margin-top: 3%;
+}
+
+.TitleShell {
+    margin-left: 10%;
+}
+
+.TitleShell a {
+    font-size: 1.5rem;
+}
+
+.ProjectBlurb {
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.ProjectBlurb h5 {
+    margin: 0;
+}
