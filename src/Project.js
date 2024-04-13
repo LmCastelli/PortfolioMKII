@@ -9,7 +9,7 @@ function Project({title, blurb, img, url}) {
             </div>
             <div className="InfoShell">
                 <div className="TitleShell">
-                    <a href={url}>{title}</a>
+                    <a  href={url} target="_blank" rel="noreferrer noopener" >{title}</a>
                 </div>
                 <div className="ProjectBlurb">
                     <h5>{blurb}</h5>

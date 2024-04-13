@@ -1,6 +1,6 @@
 .NavShell {
     width: 100%;
-    background-color: grey;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,5 +24,9 @@
 
 .SectionShell {
     margin-right: 40%;
+}
+
+.SectionShell h3 {
+    color: white;
 }
 
