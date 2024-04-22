@@ -15,14 +15,7 @@ function NavBar() {
                     <a href="https://www.linkedin.com/in/lucas-castell/" target="_blank" rel="noreferrer noopener"> <img className="ci ci-linkedin ci-2x " alt="LinkedIn Icon"/> </a> 
                 </div>
             </div>
-            <div className="LinkShell">
-                <div className="SectionShell">
-                    <h3>Projects</h3>
-                </div>
-                <div className="SectionShell">
-                    <h3>Contact</h3>
-                </div>
-            </div>
+            
         </div>
     )
 

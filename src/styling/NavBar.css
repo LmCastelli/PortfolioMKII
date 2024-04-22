@@ -1,6 +1,7 @@
 .NavShell {
     width: 100%;
-    background-color: black;
+    height: 8vh;
+    background-color: 3a5a40;
     display: flex;
     justify-content: space-between;
     align-items: center;

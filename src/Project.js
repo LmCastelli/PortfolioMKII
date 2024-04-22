@@ -9,10 +9,10 @@ function Project({title, blurb, img, url}) {
             </div>
             <div className="InfoShell">
                 <div className="TitleShell">
-                    <a  href={url} target="_blank" rel="noreferrer noopener" >{title}</a>
+                    <a className="merriweather-regular" href={url} target="_blank" rel="noreferrer noopener" >{title}</a>
                 </div>
                 <div className="ProjectBlurb">
-                    <h5>{blurb}</h5>
+                    <h5 className="ubuntu-medium" >{blurb}</h5>
                 </div>
             </div>
         </div>
