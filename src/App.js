@@ -1,13 +1,12 @@
 import "./styling/App.css"
 import NavBar from "./NavBar";
 import Project from "./Project";
+
 import me from "./MeTest.png"
 import Wordie from "./Wordle.png"
 import Cargo from "./Truck.png"
 import Dice from "./D20.png"
 import Basketball from "./Basketball.png"
-
-
 
 function App() {
     return (
@@ -19,7 +18,7 @@ function App() {
                         <h1 className="merriweather-regular title" ><span>{'< '}</span>Projects<span>{' />'}</span></h1>
                     </div>
                     <div className="ProjectShell">
-                        <Project title="Encounter Manager" img={Dice} url="testURL" blurb="Created to organize and store info about Dungeons and Dragons monsters, battles, and stories for my friend who manages campaign sessions" />
+                        <Project title="Encounter Manager" img={Dice} url="https://github.com/LmCastelli/Encounter-Frontend" blurb="Created to organize and store info about Dungeons and Dragons monsters, battles, and stories for my friend who manages campaign sessions" onClick={() =>handleOnClick("https://github.com/LmCastelli/Encounter-Frontend")} />
 
                         <Project title="Wordie" img={Wordie} url="https://projects-wordie.netlify.app/" blurb="Built solely because I enjoy doing the Wordle and Connections daily, and wanted to see if I could make it from scratch!" />
 
@@ -38,11 +37,9 @@ function App() {
                     <div className="BlurbShell" >
                         <h3 className="merriweather-regular" >Hello! I'm Lucas, a frontend-focused full-stack web developer with a strong proficiency in React and Node.js, seeking opportunities to leverage my technical skills and creativity to build innovative web applications!</h3>
                     </div>
-                </div>
-                
+                </div>  
             </div>
         </div>
     )
 }
-
 export default App;

@@ -35,17 +35,9 @@ body {
     width: 100%;
 }
 
-
-
 .LastName {
     margin-left: 12.5%;
 }
-
-.Tag {
-
-}
-
-
 
 .MeContainer {
     width: 32%;
@@ -91,12 +83,6 @@ body {
   font-style: normal;
 }
   
-.ubuntu-light {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
 .ubuntu-regular {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -113,7 +99,3 @@ body {
     font-size: 2.4rem;
 }
 
-/* 
-Dungeons and Dragons encounter manager that allows the user to store data on monsters, characters, and story
-
-*/

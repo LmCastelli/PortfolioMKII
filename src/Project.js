@@ -1,9 +1,13 @@
 import "./styling/Project.css"
+
+const handleOnClick = (url) => {
+    const newTab = window.open(url, '_blank', 'noopener, noreferrer')
+    if (newTab) newTab.opener = null
+}
+
 function Project({title, blurb, img, url}) {
-
-
     return(
-        <div className="ProjectDiv">
+        <div onClick={() =>handleOnClick(url)} className="ProjectDiv">
             <div className="ProjectImg">
                 <img className="Screenshot" src={img} alt={title}></img>
             </div>
